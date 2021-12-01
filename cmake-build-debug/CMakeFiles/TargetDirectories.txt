@@ -1,0 +1,3 @@
+C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/cmake-build-debug/CMakeFiles/2021.dir
+C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir
