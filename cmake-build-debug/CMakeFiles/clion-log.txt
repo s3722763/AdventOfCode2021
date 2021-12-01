@@ -1,16 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\Daniel\Documents\Projects\AdventOfCode\2021
--- The C compiler identification is MSVC 19.31.30818.0
--- The CXX compiler identification is MSVC 19.31.30818.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.31.30818/bin/Hostx64/x64/cl.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.31.30818/bin/Hostx64/x64/cl.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/cmake-build-debug

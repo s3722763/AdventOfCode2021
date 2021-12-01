@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/Day1.cpp">
+			<Option target="2021"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/Day1.h">
+			<Option target="2021"/>
+		</Unit>
 		<Unit filename="C:/Users/Daniel/Documents/Projects/AdventOfCode/2021/main.cpp">
 			<Option target="2021"/>
 		</Unit>

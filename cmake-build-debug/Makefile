@@ -118,6 +118,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\2021.dir\build
 .PHONY : 2021\fast
 
+Day1.obj: Day1.cpp.obj
+.PHONY : Day1.obj
+
+# target to build an object file
+Day1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\2021.dir\Day1.cpp.obj
+.PHONY : Day1.cpp.obj
+
+Day1.i: Day1.cpp.i
+.PHONY : Day1.i
+
+# target to preprocess a source file
+Day1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\2021.dir\Day1.cpp.i
+.PHONY : Day1.cpp.i
+
+Day1.s: Day1.cpp.s
+.PHONY : Day1.s
+
+# target to generate assembly for a file
+Day1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\2021.dir\Day1.cpp.s
+.PHONY : Day1.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 2021
+	@echo ... Day1.obj
+	@echo ... Day1.i
+	@echo ... Day1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
