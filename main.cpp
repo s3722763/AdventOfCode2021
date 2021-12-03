@@ -3,6 +3,7 @@
 #include "doctest.h"
 #include "Day1.h"
 #include "Day2.h"
+#include "Day3.h"
 
 int run_tests();
 
@@ -27,6 +28,12 @@ int main(int argc, char** argv) {
     Day2::run(&day2Data);
     std::cout << "Day 2 Part 1 Solution: " << day2Data.horizontalPositionPart1 * day2Data.depthPart1 << "\n";
     std::cout << "Day 2 Part 2 Solution: " << day2Data.horizontalPositionPart2 * day2Data.depthPart2 << "\n";
+    std::cout << std::endl;
+
+    auto day3Data = Day3::load("Input/Day3/Problem.txt");
+    Day3::run(&day3Data);
+    std::cout << "Day 3 Part 1 Solution: " << day3Data.epsilon * day3Data.gamma << "\n";
+    std::cout << "Day 3 Part 2 Solution: " << day3Data.co2Rating * day3Data.oxygenRating << "\n";
     std::cout << std::endl;
 
     return 0;
