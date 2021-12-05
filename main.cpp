@@ -4,6 +4,7 @@
 #include "Day1.h"
 #include "Day2.h"
 #include "Day3.h"
+#include "Day4.h"
 
 int run_tests();
 
@@ -34,6 +35,12 @@ int main(int argc, char** argv) {
     Day3::run(&day3Data);
     std::cout << "Day 3 Part 1 Solution: " << day3Data.epsilon * day3Data.gamma << "\n";
     std::cout << "Day 3 Part 2 Solution: " << day3Data.co2Rating * day3Data.oxygenRating << "\n";
+    std::cout << std::endl;
+
+    auto day4Data = Day4::load("Input/Day4/Problem.txt");
+    Day4::run(&day4Data);
+    std::cout << "Day 4 Part 1 Solution: " << day4Data.part1Score << "\n";
+    std::cout << "Day 4 Part 2 Solution: " << day4Data.part2Score << "\n";
     std::cout << std::endl;
 
     return 0;

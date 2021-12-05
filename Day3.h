@@ -21,7 +21,7 @@ struct Day3Component {
 
 namespace Day3 {
     Day3Component load(const std::string& file);
-    void run(Day3Component* day2Component);
+    void run(Day3Component* day3Component);
 }
 
 #endif //INC_2021_DAY3_H

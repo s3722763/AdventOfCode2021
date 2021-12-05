@@ -118,7 +118,7 @@ void Day3::run(Day3Component* day3Component) {
                 if (number->at(i) == '0') {
                     number = co2Numbers.erase(number);
                 } else {
-                    std::cout << "Keeping number " << *number << " - is one at index " << i << std::endl;
+                    //std::cout << "Keeping number " << *number << " - is one at index " << i << std::endl;
                     number++;
                 }
             }
@@ -127,18 +127,18 @@ void Day3::run(Day3Component* day3Component) {
                 if (number->at(i) == '1') {
                     number = co2Numbers.erase(number);
                 } else {
-                    std::cout << "Keeping number " << *number << " - is zero at index " << i << std::endl;
+                    //std::cout << "Keeping number " << *number << " - is zero at index " << i << std::endl;
                     number++;
                 }
             }
         }
 
         if (co2Numbers.size() <= 1) {
-            std::cout << "Found: " << co2Numbers[0] << std::endl;
+            //std::cout << "Found: " << co2Numbers[0] << std::endl;
             break;
         }
 
-        std::cout << std::endl;
+        //std::cout << std::endl;
     }
 
     day3Component->co2Rating = 0;
