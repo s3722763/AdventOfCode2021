@@ -5,14 +5,15 @@
 #include "Day2.h"
 #include "Day3.h"
 #include "Day4.h"
+#include "Day5.h"
 
-int run_tests();
+int run_tests(int argc, char** argv);
 
 int main(int argc, char** argv) {
     if (argc > 1) {
         for (auto i = 1; i < argc; i++) {
             if (std::strcmp(argv[i], "TEST") == 0) {
-                return run_tests();
+                return run_tests(argc, argv);
             }
         }
     }
@@ -43,11 +44,18 @@ int main(int argc, char** argv) {
     std::cout << "Day 4 Part 2 Solution: " << day4Data.part2Score << "\n";
     std::cout << std::endl;
 
+    auto day5Data = Day5::load("Input/Day5/Problem.txt");
+    Day5::run(&day5Data);
+    std::cout << "Day 5 Part 1 Solution: " << day5Data.numberCrossovers << "\n";
+    //std::cout << "Day 5 Part 2 Solution: " << day4Data.part2Score << "\n";
+    std::cout << std::endl;
+
     return 0;
 }
 
-int run_tests() {
+int run_tests(int argc, char** argv) {
     doctest::Context context;
+    context.applyCommandLine(argc, argv);
 
     return context.run();
 }
